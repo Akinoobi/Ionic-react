@@ -3,6 +3,7 @@ import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import React from 'react';
 
 const User: React.FC = () => {
     const [users, setUsers] = useState([]);
